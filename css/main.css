@@ -5,6 +5,18 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .container {
   float: left;
 }
@@ -32,41 +44,14 @@ body {
 }
 
 .updates {
-  padding-top: 2vh;
+  padding-top: 12px;
   padding-left: 100px;
   padding-right: 100px;
   color: #131416;
-  font-size: 8pt;
+  font-size: 12px;
   letter-spacing: 3px;
   font-weight: lighter;
   width: 35%;
-}
-
-.updates a {
-  color: red;
-  position: relative;
-  text-decoration: none;
-}
-
-.updates a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #000;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-.updates a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
 }
 
 #borderdesc {
@@ -78,11 +63,8 @@ body {
   margin-top: 10px;
 }
 
-.transition a {
-  padding-top: 1vh;
-  color: #131416;
-  font-size: 30pt;
-  letter-spacing: 3px;
-  font-weight: bold;
-  margin-left: 522px;
+.links {
+  width: 35%;
+  margin-left: 60px;
+  font-size: 20px;
 }
