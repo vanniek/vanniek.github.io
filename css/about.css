@@ -24,4 +24,5 @@
 .links a {
   border: 5px solid #232e5b;
   padding: 7px;
+  text-decoration: none;
 }
