@@ -1,0 +1,27 @@
+.page1 {
+  left: 18%;
+  margin: auto;
+  position: absolute;
+  width: 95%;
+  text-align: left;
+}
+
+#info{
+  margin: 0;
+}
+
+.description {
+  width: 65%;
+  text-align: justify;
+}
+
+.links {
+  font-size: 17pt;
+  margin-right: 35%;
+  text-align: right;
+}
+
+.links a {
+  border: 5px solid #232e5b;
+  padding: 7px;
+}
