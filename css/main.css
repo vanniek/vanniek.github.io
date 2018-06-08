@@ -27,10 +27,13 @@ body {
   font-weight: bold;
 }
 
-.headright, .headright a {
+.headright {
   float: right;
-  margin-right: 7px;
+}
+
+.headright a {
   color: white;
+  margin-right: 7px;
 }
 
 .page1 {
