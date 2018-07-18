@@ -4,8 +4,8 @@
     <title>Vannie</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/projects.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/projects.css">
   </head>
   <body>
     <div class="header">
@@ -21,12 +21,9 @@
         <div id="info">
           Projects
         </div>
-        <div id="project1" style="display:block">
+        <div id = "projOne" class="tabs" style="display:block">
           <div class="projtitle">
             Project #1: Poetry Box
-          </div>
-          <div class="status">
-            Status: Semi-complete; last updated on June 3, 2018. 
           </div>
           <div class="projdesc">
             A simple website that allows users to search and read poems while offering a method for users to combine lines from different poems to curate a unique 5 line poem.  Technologies used: Javascript, JSON, HTML, CSS.
@@ -36,17 +33,10 @@
             <a href="https://github.com/vanniek/poetry-box">source code.</a>
             <a href="https://vanniek.github.io/poetry-box/">demo.</a>
           </div>
-          <div class="next">
-            <a onclick="replace('project1', 'project2')" href="#">View next project</a>
         </div>
-        </div>
-        
-        <div id="project2" style="display:none">
+        <div class="tabs" id="projTwo" style="display:none">
           <div class="projtitle">
             Project #2: Personal Website
-          </div>
-          <div class="status">
-            Status: Complete for now! 
           </div>
           <div class="projdesc">
             A website (this one!) that serve as my place on the internet. This was essentially, my first dive into frontend web development. Technologies used: HTML, CSS, and a bit of Javascript.
@@ -55,27 +45,25 @@
           <div class="links">
             <a href="https://github.com/vanniek/vanniek.github.io">source code.</a>
           </div>
-          <div class="next">
-            <a onclick="replace('project2', 'project3')" href="#">View next project</a>
-          </div>
         </div>
         
-        <div id="project3" style="display:none">
-          <div class="projtitle">
-            Project #3: Web Scraper Scripts
-          </div>
-          <div class="status">
-            Status: Still working on as of June 6, 2018.
-          </div>
-          <div class="projdesc">
-            A series of small scripts that were created as a means for me to understand how web scraping works and how it can benefit my needs. Some examples of scripts I have created include scrapping documentary links off Reddit and economic journal links off IDEAS. Technologies used: Python, PRAW (Reddit API), beautifulsoup (Python library)
-            <br>
-          </div>
-          <div class="links">
-          </div>
-        </div>
+                <div class="tabs" id="projThree" style="display:none">
+                  <div class="projtitle">
+                    Project #3: Web Scraper Scripts
+                  </div>
+                  <div class="projdesc">
+                    A series of small scripts that were created as a means for me to understand how web scraping works and how it can benefit my needs. Some examples of scripts I have created include scrapping documentary links off Reddit and economic journal links off IDEAS. Technologies used: Python, PRAW (Reddit API), beautifulsoup (Python library)
+                    <br>
+                  </div>
+                </div>
+
+    <button class="tablink" onclick="opens('projOne', this)" id="defaultOpen">Project #1</button>
+    <button class="tablink" onclick="opens('projTwo', this)">Project #2</button>
+    <button class="tablink" onclick="opens('projThree', this)">Project #3</button>
+
+
       </div>
     </div>
-    <script src="/js/replace.js"></script>
+    <script src="js/replace.js"></script>
   </body>
 </html>
