@@ -1,4 +1,10 @@
-function replace(x, y) { 
-  document.getElementById(y).style.display="block"; 
-  document.getElementById(x).style.display="none"; 
-} 
+function opens(project, change) {
+    var projOne = document.getElementById("projOne");
+    var projTwo = document.getElementById("projTwo");
+    var projThree = document.getElementById("projThree");
+    projOne.style.display  = "none";
+    projTwo.style.display = "none";
+    projThree.style.display = "none";
+
+    document.getElementById(project).style.display = "block";
+}
