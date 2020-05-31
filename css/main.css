@@ -37,7 +37,6 @@ body {
 }
 
 .page1 {
-  text-align: center;
   color:#232e5b;
   left: 2%;
   margin: auto;
@@ -53,29 +52,31 @@ body {
 #info{
   font-size: 50pt;
   font-weight: bold;
-  margin-left: 4%;
+  margin-left: 8%;
 }
 
 .description {
   font-size: 20pt;
-  letter-spacing: 3px;
   font-weight: lighter;
   margin-top: 25px;
+  margin-left: 8%;
 }
 
 .links {
-  font-size: 20pt;
+  font-size: 15pt;
   margin-top: 25px;
-  margin-left: -3%;
-  text-decoration: underline;
+  margin-left: 8%;
 }
 
 .links a {
   color: #232e5b;
+  margin-right: 20px;
+  text-decoration: underline;
 }
 
 .links a:visited {
   color: #232e5b;
+  
 }
 
 #status {
