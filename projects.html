@@ -21,45 +21,126 @@
         <div id="info">
           Projects
         </div>
+
+        <button class="tablink" onclick="opens('projOne', this)" id="defaultOpen">Competitions</button>
+        <button class="tablink" onclick="opens('projTwo', this)">Research</button>
+        <button class="tablink" onclick="opens('projThree', this)">Personal</button>
+
+
         <div id = "projOne" class="tabs" style="display:block">
+
           <div class="projtitle">
-            Project #1: Poetry Box
+            Nurture - Amazon Web Services Cloudy Day Challenge
+          </div>
+          <div class="projdesc">
+            Designed a digital storytelling app that aims to preserve and share the cultural history and heritage of immigrants and refugees living in Toronto. Placed in the final around (top 5 teams).
+            <br>
+          </div>
+          <div class="links">
+            <a href="/files/nurture.pdf">slide deck</a>
+            <a href="https://www.agorize.com/en/challenges/cloudydayuoft?lang=en">competition</a>
+          </div>
+
+          <div class="projtitles">
+            Retail Solution - Microsoft Discover A.I Challenge
+          </div>
+          <div class="projdesc">
+            Designed the software architecture solution for an app that leverages computer vision in order to help retailers make better decisions over product placement. Placed in the second round (top 40 teams).
+            <br>
+          </div>
+          <div class="links">
+            <a href="/files/thetouchpoint.pdf">slide deck</a>
+            <a href="https://discover-ai-with-microsoft.agorize.com/en/challenges/smarter-and-sustainable-economies">competition</a>
+          </div>
+
+          <div class="projtitles">
+            SGreen - Manulife New Product Challenge
+          </div>
+          <div class="projdesc">
+            Designed a live prototype using Figma for an app that uses behavioural science techniques to encourage students to study more effectively.
+            <br>
+          </div>
+          <div class="links">
+            <a href="https://www.figma.com/proto/N2xyauiDn6NjDQfb18wsdm/SGreen?node-id=2%3A546&scaling=scale-down">prototype</a>
+          </div>
+
+          <div class="projtitles">
+            NoMoo - Internal U of T IBM Challenge
+          </div>
+          <div class="projdesc">
+            Researched and designed an app that helps lactose-intolerant individuals find meals suitable for their diet. Conducted user research, and made multiple iterations of the prototype in order to make the app more user friendly. Placed in the top 5 teams.
+            <br>
+          </div>
+          <div class="links">
+            <a href="https://www.figma.com/proto/fOnTXu5SGLeVMsZQrGycCs/NoMoo-The-Lactose-Intolerance-App?node-id=253%3A2295&scaling=min-zoom">prototype</a>
+            <a href="/files/nomoo.pdf">user end report</a>
+          </div>
+
+        </div>
+
+
+        <div class="tabs" id="projTwo" style="display:none">
+
+          <div class="projtitle">
+            Loss Aversion Balloon Experiment Game
+          </div>
+          <div class="projdesc">
+            Used HTML, CSS, and Javascript to program an experimental balloon popping game. The aim of the game is to measure the effects loss aversion when users are listening to white noise.
+            <br>
+          </div>
+          <div class="links">
+            <a href="https://github.com/vanniek/CUBS">source code</a>
+            <a href="https://vanniek.github.io/CUBS/">demo</a>
+          </div>
+
+          <div class="projtitles">
+            Quine
+          </div>
+          <div class="projdesc">
+            Quine is an educational video game that aims to teach students about programming logic. The game is tile-based and features a drag and drop event system for each puzzle. Conducted user research and play tests in order to refine the game. Technologies used: C#, Unity, Adobe Photoshop.
+            <br>
+          </div>
+          <div class="links">
+            <a href="https://github.com/vanniek/Quine">source code</a>
+            <a href="/files/quine.pdf">report</a>
+          </div>
+
+        </div>
+        
+        <div class="tabs" id="projThree" style="display:none">
+
+          <div class="projtitle">
+            Spotify Playlist Sentiment Analysis
+          </div>
+          <div class="projdesc">
+            In order to understand more about APIs and natural language processing, I am currently working on a project that pulls playlists from Spotify and analyzes how positive or negative they are as a whole. Technologies used: Python.
+            <br>
+          </div>
+          <div class="links">
+            <a href="https://github.com/vanniek/playlist-analysis`">source code</a>
+          </div>
+
+          <div class="projtitles">
+            Poetry Box
           </div>
           <div class="projdesc">
             A simple website that allows users to search and read poems while offering a method for users to combine lines from different poems to curate a unique 5 line poem.  Technologies used: Javascript, JSON, HTML, CSS.
             <br>
           </div>
           <div class="links">
-            <a href="https://github.com/vanniek/poetry-box">source code.</a>
-            <a href="https://vanniek.github.io/poetry-box/">demo.</a>
+            <a href="https://github.com/vanniek/poetry-box">source code</a>
+            <a href="https://vanniek.github.io/poetry-box/">demo</a>
           </div>
-        </div>
-        <div class="tabs" id="projTwo" style="display:none">
-          <div class="projtitle">
-            Project #2: Quine
-          </div>
-          <div class="projdesc">
-            Quine is an educational video game that aims to teach students about programming logic. The game is tile-based and features a drag and drop event system for each puzzle. Technologies used: C#, Unity, Adobe Photoshop.
-            <br>
-          </div>
-          <div class="links">
-            <a href="https://github.com/vanniek/Quine">source code.</a>
-          </div>
-        </div>
-        
-                <div class="tabs" id="projThree" style="display:none">
-                  <div class="projtitle">
-                    Project #3: Web Scraper Scripts
-                  </div>
-                  <div class="projdesc">
-                    A series of small scripts that were created as a means for me to understand how web scraping works and how it can benefit my needs. Some examples of scripts I have created include scrapping documentary links off Reddit and economic journal links off IDEAS. Technologies used: Python, PRAW (Reddit API), beautifulsoup (Python library)
-                    <br>
-                  </div>
-                </div>
 
-    <button class="tablink" onclick="opens('projOne', this)" id="defaultOpen">Project #1</button>
-    <button class="tablink" onclick="opens('projTwo', this)">Project #2</button>
-    <button class="tablink" onclick="opens('projThree', this)">Project #3</button>
+            <div class="projtitles">
+              Web Scraper Scripts
+            </div>
+             <div class="projdesc">
+                A series of small scripts that were created as a means for me to understand how web scraping works and how it can benefit my needs. Some examples of scripts I have created include scrapping documentary links off Reddit and economic journal links off IDEAS. Technologies used: Python, PRAW (Reddit API), beautifulsoup (Python library).
+                <br>
+             </div>
+
+          </div>
 
 
       </div>
