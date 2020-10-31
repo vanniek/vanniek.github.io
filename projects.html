@@ -4,8 +4,8 @@
     <title>Vannie</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/projects.css">
     <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.1/dist/typeit.min.js"></script>
   </head>
   <body>
@@ -16,10 +16,13 @@
           Projects
         </div>
 
-        <button class="tablink" onclick="opens('projOne', this)" id="defaultOpen">Competitions</button>
-        <button class="tablink" onclick="opens('projTwo', this)">Research</button>
-        <button class="tablink" onclick="opens('projThree', this)">Personal</button>
+        <div class="tab">
 
+        <button onclick="opens('projOne', this)" id="defaultOpen">Competitions</button>
+        <button onclick="opens('projTwo', this)">Research</button>
+        <button onclick="opens('projThree', this)">Personal</button>
+
+      </div>
 
         <div id = "projOne" class="tabs" style="display:block">
 
@@ -100,6 +103,7 @@
             <a href="https://www.figma.com/proto/fOnTXu5SGLeVMsZQrGycCs/NoMoo-The-Lactose-Intolerance-App?node-id=253%3A2295&scaling=min-zoom">prototype</a>
             <a href="/files/nomoo.pdf">user end report</a>
           </div>
+          <div class="end"></div>
 
         </div>
 
@@ -145,6 +149,8 @@
             <a href="https://github.com/vanniek/Quine">source code</a>
             <a href="/files/quine.pdf">report</a>
           </div>
+
+          <div class="end"></div>
 
         </div>
         
@@ -204,6 +210,7 @@
                </ul>
                 <p></p>
              </div>
+             <div class="end"></div>
           </div>
 
 

@@ -18,13 +18,12 @@
 }
 
 .projtitle {
-  margin-top: 10%;
   font-weight: bold;
-  font-size: 15pt;
+  font-size: 16pt;
 }
 
 .projtitles {
-  margin-top: 4%;
+  margin-top: 30px;
   font-weight: bold;
   font-size: 16pt;
 }
@@ -41,7 +40,7 @@
   margin-right: 39%;
   text-align: right;
   font-size: 14pt;
-  margin-bottom: 55px;
+  margin-bottom: 110px;
 }
 
 .links a {
@@ -50,6 +49,7 @@
   border: #232e5b 1px solid;
   border-radius: 3px;
   padding: 5px;
+  float: right;
 }
 
 .links a:hover {
@@ -57,17 +57,21 @@
   color: #c9cad6;
 }
 
-.tablink {
+.tab button {
   background-color:white;
   color: #232e5b;
   border: 2px solid #232e5b;
   float: left;
   padding: 10px 12px;
   border-radius: 3px;
-  font-size: 15px;
-  width: 18%;
-  margin-top: 20px;
+  font-size: 13pt;
+  width: 150px;
   margin-right: 30px;
+  text-align: center;
+}
+
+.tab {
+  margin-bottom: 150px;
 }
 
 .tools {
@@ -83,4 +87,9 @@
   border: #232e5b 1px solid;
   border-radius: 3px;
   padding: 7px;
+}
+
+.end{
+  bottom: 0px;
+  height: 30px;
 }
